@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Курсы программирования и моделирования для детей в Гусь-Хрустальном - Алфабит</title>
+</head>
+<body>
+    <header>
+        <div class="header-top container">
+            <div class="header-top-left">
+                <div class="header-top-logo">
+
+                </div>
+                <nav class="header-top-menu">
+                    <ul>
+                        <li><a href="#course">Курсы</a></li>
+                        <li><a href="#price">Стоимость</a></li>
+                        <li><a href="#faq">Частые вопросы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-top-callback">
+                <a href="tel:+79611119477">+7 (961) 111-94-77</a>
+                <span class="tran-button">Позвоните мне</span>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-content-left">
+                <span class="header-content-left-title">УЧИМ ДЕТЕЙ ПРОГРАММИРОВАТЬ</span>
+                <span class="header-content-left-title-little">и не только</span>
+                <div class="header-content-left-description">Ребенок узнает как устроен компьютер, научится правильно с ним работать,
+                    создаст много крутых игр и 3D моделей!</div>
+                <div class="callback-input-block">
+                    <input type="text" placeholder="Ваш номер телефона">
+                    <span class="input-button">
+                        Оставить заявку
+                    </span>
+                </div>
+                <span class="header-content-left-input-description">Оставьте заявку и мы вам перезвоним!</span>
+            </div>
+            <div class="header-content-right">
+                <div class="top-slider">
+                    <div class="top-slider-item active">
+                        <img src="img/scratch.jpg" alt="Основы программирования">
+                        <div class="top-slider-item-description">
+                            Научимся составлять программы на языке Scratch.
+                            Создадим крутые мультфильмы и игры!
+                        </div>
+                    </div>
+                    <div class="top-slider-item">
+                        <img src="img/3D.jpg" alt="3D моделирование и печать">
+                        <div class="top-slider-item-description">
+                            Учимся правильно создавать 3D модели и работать
+                            с 3D принтерами.
+                        </div>
+                    </div>
+                    <div class="top-slider-item">
+                        <img src="img/arduino.jpg" alt="Программирование Arduino">
+                        <div class="top-slider-item-description">
+                            Программируем и создаем классные
+                            электронные устройства для умного дома.
+                        </div>
+                    </div>
+                    <div class="top-slider-item">
+                        <img src="img/gram.jpg" alt="Компьютерная грамотность">
+                        <div class="top-slider-item-description">
+                            Изучаем, как правильно работать с компьютером и необходимыми
+                            программами.
+                        </div>
+                    </div>
+
+                    <div class="top-slider-dots">
+                        <span class="dots-prev" onclick="prevSlide()">
+                            <img src="img/left-arrow.png" alt="" class="dots-arrow-prev">
+                        </span>
+                        <span class="dots-next" onclick="nextSlide()">
+                            <img src="img/right-arrow.png" alt="" class="dots-arrow-next">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="section-title">
+                почему выбирают нас:
+            </div>
+            <div class="about-list">
+                <div class="about-item">
+                    <span class="about-icon icon-group"></span>
+                    Маленькие группы<br>
+                    до 3х человек
+                </div>
+                <div class="about-item">
+                    <span class="about-icon icon-children"></span>
+                    Внимание каждому<br>
+                    ребенку
+                </div>
+                <div class="about-item">
+                    <span class="about-icon icon-calendar"></span>
+                    Удобный график<br>
+                    занятий
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="course">
+        <div class="container">
+            <div class="section-title">
+                наши классные курсы:
+            </div>
+            <div class="course-list">
+                <div class="course-item">
+                    <img src="img/scratch.jpg" alt="">
+                    <span class="course-item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, totam!
+                    </span>
+                    <span class="course-item-price">
+                        300 руб.
+                    </span>
+                    <span class="button-callback">
+                        Записаться
+                    </span>
+                </div>
+                <div class="course-item">
+                    <img src="img/3D.jpg" alt="">
+                    <span class="course-item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, laborum?
+                    </span>
+                    <span class="course-item-price">
+                        400 руб.
+                    </span>
+                    <span class="button-callback">
+                        Записаться
+                    </span>
+                </div>
+                <div class="course-item">
+                    <img src="img/arduino.jpg" alt="">
+                    <span class="course-item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quia!
+                    </span>
+                    <span class="course-item-price">
+                        400 руб.
+                    </span>
+                    <span class="button-callback">
+                        Записаться
+                    </span>
+                </div>
+                <div class="course-item">
+                    <img src="img/gram.jpg" alt="">
+                    <span class="course-item-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, repellendus.
+                    </span>
+                    <span class="course-item-price">
+                        300 руб.
+                    </span>
+                    <span class="button-callback">
+                        Записаться
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                частые вопросы:
+            </div>
+            <div class="question-list">
+                <span class="question">
+                    С какого возраста можно записать ребёнка на курсы?
+                </span>
+                <span class="answer">
+                    Мы обучаем детей в возрасте от 8 до 17 лет.
+                </span>
+
+                <span class="question">
+                    Сколько стоит пробное занятие?
+                </span>
+                <span class="answer">
+                    Пробное занятие - бесплатно! Вы выбираете интересующий курс, посещаете пробное занятие
+                    и ребенок решает, нравится ему или нет. Если он хочет попробовать другое направление,
+                    то так же посещает бесплатное пробное занятие!
+                </span>
+
+                <span class="question">
+                    Возмоно проведение индивидуальных занятий?
+                </span>
+                <span class="answer">
+                    Да, возможно индивидуальное обучение. Условия и стоимость обговариваются отдельно.
+                </span>
+
+                <span class="question">
+                    Сколько стоит занятие?
+                </span>
+                <span class="answer">
+                    Стоимость одного занятия по каждому направлению, указана в разделе <a href="#">курсы.</a>
+                    Продолжительность занятия - 1 час. Между занятиями перемены по 10 минут, что бы ребята
+                    могли спокойно завершить работу и задать дополнительные вопросы.
+                </span>
+
+                <span class="question">
+                    Как можно оплатить?
+                </span>
+                <span class="answer">
+                    Оплата производится в начале или конце занятия. Оплатить можно наличными или переводом
+                    на карту банка (сбербанк).
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="callback-block">
+        <div class="container">
+            <div class="section-title">
+                хотите записаться?
+            </div>
+            <img src="img/mail.png" alt="Оставить заявку">
+            <div class="callback-form">
+                <span class="callback-description">
+                    Оставьте свой номер телефона! Мы позвоним и назначим время бесплатного занятия!
+                </span>
+                <div class="callback-input-block">
+                    <input type="text" placeholder="Ваш номер телефона">
+                    <span class="input-button">
+                        Оставить заявку
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="section-title">
+                наши контакты
+            </div>
+            <div class="footer-contact">
+                <div class="footer-contact-left">
+                    <span class="footer-contact-title">Телефон</span>
+                    <a href="tel:=79611119477">+7 (961) 111-94-77</a>
+                    <span class="footer-contact-title">Соц. сети</span>
+                    <div class="footer-contact-soc">
+                        <a href="https://vk.com/alfab1t"><img src="img/sc-vk.png" alt=""></a>
+                        <a href="https://www.instagram.com/alfab1t/"><img src="img/sc-instagram.png" alt=""></a>
+                        <a href="https://t.me/alfab1t_bot"><img src="img/sc-telegram.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-contact-right">
+                    <span class="footer-contact-title">Адрес</span>
+                    <a href="#">ул.Интернациональная, д.7</a>
+                    <span class="footer-contact-title">Мы на карте</span>
+                    <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=31837141196" width="560" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
