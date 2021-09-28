@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/icon.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Курсы программирования и моделирования для детей в Гусь-Хрустальном - Алфабит</title>
@@ -17,7 +18,7 @@
                 <nav class="header-top-menu">
                     <ul>
                         <li><a href="#course">Курсы</a></li>
-                        <li><a href="#price">Стоимость</a></li>
+                        <li><a href="#course">Стоимость</a></li>
                         <li><a href="#faq">Частые вопросы</a></li>
                         <li><a href="#contact">Контакты</a></li>
                     </ul>
@@ -25,7 +26,7 @@
             </div>
             <div class="header-top-callback">
                 <a href="tel:+79611119477">+7 (961) 111-94-77</a>
-                <span class="tran-button">Позвоните мне</span>
+                <a class="tran-button" href="#callback">Позвоните мне</a>
             </div>
         </div>
 
@@ -33,15 +34,14 @@
             <div class="header-content-left">
                 <span class="header-content-left-title">УЧИМ ДЕТЕЙ ПРОГРАММИРОВАТЬ</span>
                 <span class="header-content-left-title-little">и не только</span>
-                <div class="header-content-left-description">Ребенок узнает как устроен компьютер, научится правильно с ним работать,
-                    создаст много крутых игр и 3D моделей!</div>
-                <div class="callback-input-block">
-                    <input type="text" placeholder="Ваш номер телефона">
-                    <span class="input-button">
-                        Оставить заявку
-                    </span>
+                <div class="header-content-left-description">
+                    В современном мире, умение программировать также важно как умение читать.
+                    Это требования рынка и нового мира!
                 </div>
-                <span class="header-content-left-input-description">Оставьте заявку и мы вам перезвоним!</span>
+                <div class="header-content-left-button">
+                    <a class="button-callback" href="#callback">Оставить заявку</a>
+                </div>
+
             </div>
             <div class="header-content-right">
                 <div class="top-slider">
@@ -112,65 +112,86 @@
         </div>
     </section>
 
-    <section class="course">
+    <section class="course" id="course">
         <div class="container">
             <div class="section-title">
                 наши классные курсы:
             </div>
             <div class="course-list">
                 <div class="course-item">
-                    <img src="img/scratch.jpg" alt="">
-                    <span class="course-item-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, totam!
-                    </span>
-                    <span class="course-item-price">
-                        300 руб.
-                    </span>
-                    <span class="button-callback">
-                        Записаться
-                    </span>
+                    <div class="course-item-content">
+                        <img src="img/scratch.jpg" alt="">
+                        <span class="course-item-description">
+                            Дети получают базовые навыки в программировании и создают свои цифровые проекты!
+                            Анимация, мультфильмы и конечно же игры!
+                        </span>
+                    </div>
+                    <div class="course-item-footer">
+                        <span class="course-item-price">
+                            300 руб.
+                        </span>
+                        <a class="button-callback" href="#callback">
+                            Записаться
+                        </a>
+                    </div>
                 </div>
                 <div class="course-item">
-                    <img src="img/3D.jpg" alt="">
-                    <span class="course-item-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, laborum?
-                    </span>
-                    <span class="course-item-price">
-                        400 руб.
-                    </span>
-                    <span class="button-callback">
-                        Записаться
-                    </span>
+                    <div class="course-item-content">
+                        <img src="img/3D.jpg" alt="">
+                        <span class="course-item-description">
+                            3D-моделирование одна из самых востребованных ИТ профессий! Трехмерное моделирование применяется
+                            в играх, фильмах, архитектуре и т.д. Мы не просто создаем 3D модели,
+                            но и работаем с 3D принтером! Ребенок может создать модель и распечатать ее!
+                        </span>
+                    </div>
+                    <div class="course-item-footer">
+                        <span class="course-item-price">
+                            400 руб.
+                        </span>
+                        <a class="button-callback" href="#callback">
+                            Записаться
+                        </a>
+                    </div>
                 </div>
                 <div class="course-item">
-                    <img src="img/arduino.jpg" alt="">
-                    <span class="course-item-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quia!
-                    </span>
-                    <span class="course-item-price">
-                        400 руб.
-                    </span>
-                    <span class="button-callback">
-                        Записаться
-                    </span>
+                    <div class="course-item-content">
+                        <img src="img/arduino.jpg" alt="">
+                        <span class="course-item-description">
+                            Получаем базовые навыки электроники, автоматики и робототехники.
+                            Разрабатываем и реализуем проекты, в том числе с использованием 3D печати!
+                        </span>
+                    </div>
+                    <div class="course-item-footer">
+                        <span class="course-item-price">
+                            400 руб.
+                        </span>
+                        <a class="button-callback" href="#callback">
+                            Записаться
+                        </a>
+                    </div>
                 </div>
                 <div class="course-item">
-                    <img src="img/gram.jpg" alt="">
-                    <span class="course-item-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, repellendus.
-                    </span>
-                    <span class="course-item-price">
-                        300 руб.
-                    </span>
-                    <span class="button-callback">
-                        Записаться
-                    </span>
+                    <div class="course-item-content">
+                        <img src="img/gram.jpg" alt="">
+                        <span class="course-item-description">
+                            Изучаем устройство и принцип работы компьютера. Работаем с базовыми офисными программами
+                            (Word, Excel, Power Point), а так же в сети Интернет!
+                        </span>
+                    </div>
+                    <div class="course-item-footer">
+                        <span class="course-item-price">
+                            300 руб.
+                        </span>
+                        <a class="button-callback" href="#callback">
+                            Записаться
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
         <div class="container">
             <div class="section-title">
                 частые вопросы:
@@ -203,7 +224,7 @@
                     Сколько стоит занятие?
                 </span>
                 <span class="answer">
-                    Стоимость одного занятия по каждому направлению, указана в разделе <a href="#">курсы.</a>
+                    Стоимость одного занятия по каждому направлению, указана в разделе <a href="#course">курсы.</a>
                     Продолжительность занятия - 1 час. Между занятиями перемены по 10 минут, что бы ребята
                     могли спокойно завершить работу и задать дополнительные вопросы.
                 </span>
@@ -219,7 +240,7 @@
         </div>
     </section>
 
-    <section class="callback-block">
+    <section class="callback-block" id="callback">
         <div class="container">
             <div class="section-title">
                 хотите записаться?
@@ -230,16 +251,19 @@
                     Оставьте свой номер телефона! Мы позвоним и назначим время бесплатного занятия!
                 </span>
                 <div class="callback-input-block">
-                    <input type="text" placeholder="Ваш номер телефона">
-                    <span class="input-button">
-                        Оставить заявку
-                    </span>
+                    <form>
+                        <input type="text" placeholder="Ваш номер телефона" id="FormInputPhone" maxlength="12">
+                        <span id="btn_submit" class="button-callback">
+                            Оставить заявку
+                        </span>
+                        <p id="contact-form-message"></p>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="section-title">
                 наши контакты
@@ -257,13 +281,15 @@
                 </div>
                 <div class="footer-contact-right">
                     <span class="footer-contact-title">Адрес</span>
-                    <a href="#">ул.Интернациональная, д.7</a>
-                    <span class="footer-contact-title">Мы на карте</span>
-                    <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=31837141196" width="560" height="400" frameborder="0"></iframe>
+                    <a href="https://yandex.ru/maps/org/alfabit/31837141196/?from=api-maps&ll=40.717231%2C55.641595&origin=jsapi_2_1_78&z=12" target="_blank">ул.Интернациональная, д.7</a>
+                    <!-- <span class="footer-contact-title">Мы на карте</span> -->
+                    <!-- <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=31837141196" width="100%" height="400" frameborder="0"></iframe> -->
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/sendtg.js"></script>
 </body>
 </html>
